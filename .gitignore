@@ -37,3 +37,14 @@ replay_pid*
 /.idea/misc.xml
 /.gradle/8.10.2/checksums/sha1-checksums.bin
 /.idea/vcs.xml
+/target/classes/application.properties
+/.idea/compiler.xml
+/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+/.idea/dataSources.xml
+/.idea/encodings.xml
+/target/frameblog-0.0.1-SNAPSHOT.jar.original
+/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+/.idea/jarRepositories.xml
+/target/maven-archiver/pom.properties
