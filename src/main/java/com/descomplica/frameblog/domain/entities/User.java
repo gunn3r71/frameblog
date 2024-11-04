@@ -1,26 +1,35 @@
 package com.descomplica.frameblog.domain.entities;
 
 import com.descomplica.frameblog.domain.enums.Role;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 @Entity
-@Table(name = "user")
+@Table(name = "users")
 public class User {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-
-    public Long getId() {
-        return id;
-    }
-
     private String name;
     private String email;
     private String password;
     private Role role;
+
+    public User() {
+    }
+
+    public User(final String name,
+                final String email,
+                final String password,
+                final Role role) {
+        this.name = name;
+        this.email = email;
+        this.password = password;
+        this.role = role;
+    }
+
+    public Long getId() {
+        return id;
+    }
 
     public String getName() {
         return name;
